@@ -1,5 +1,5 @@
 function getProjects() {
-    const urlGitHub = "https://api.github.com/users/dardaniacoimbra/repos"; // Inserir o nome de usuário do seu github
+    const urlGitHub = "https://github.com/joao1576?tab=repositories"; // Inserir o nome de usuário do seu github
     const loadingElement = document.getElementById("loading");
     const listElement = document.getElementById("my-projects-list");
   
@@ -36,7 +36,7 @@ function getProjects() {
       div.classList.add("project-item"); // Classe para estilização
   
       const a = document.createElement("a");
-      a.href = repo["html_url"]; // Link para o repositório no GitHub
+      a.href = repo["https://github.com/joao1576?tab=repositories"]; // Link para o repositório no GitHub
       a.target = "_blank";
       a.title = repo["description"] || "Repositório no GitHub";
       a.textContent = repo["name"];

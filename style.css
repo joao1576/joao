@@ -170,9 +170,9 @@ strong {
 
 /* Imagem de perfil */
 .img-profile {
-    width: 0px; /* Defina um tamanho específico */
-    height: 0px; /* Mesma altura para manter o círculo perfeito */
-    border-radius: 0%; /* 50% garantirá o formato circular */
+    width: 400px; /* Defina um tamanho específico */
+    height: 400px; /* Mesma altura para manter o círculo perfeito */
+    border-radius: 50%; /* 50% garantirá o formato circular */
     object-fit: cover; /* Garante que a imagem preencha o círculo corretamente */
 }
 
@@ -267,7 +267,7 @@ strong {
 footer {
     padding: 4rem;
     display: flex;
-    flex-direction: column;
+    flex-direction: center;
     gap: 2rem;
 }
 
