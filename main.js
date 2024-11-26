@@ -1,5 +1,5 @@
 function getProjects() {
-    const urlGitHub = "https://github.com/joao1576?tab=repositories"; // Inserir o nome de usuário do seu github
+    const urlGitHub = "https://api.github.com/users/joao1576/repos"; // Inserir o nome de usuário do seu github
     const loadingElement = document.getElementById("loading");
     const listElement = document.getElementById("my-projects-list");
   
